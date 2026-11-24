@@ -15,7 +15,7 @@ body {
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 
 }
@@ -210,20 +210,21 @@ HEADER / ABOUT US ↓
 }
 
 .header__description {
-    width: calc(40%);
+    width: 40%;
 }
 
 .header__img--wrapper {
-    width: calc(60%);
+    width: 60%
 }
 
 .header__img {
-    max-width: 512px;
+    width: 100%;
+    max-width: 768px;
 }
 
 h1 {
     display: block;
-    font-size: 36px;
+    font-size: 48px;
     color: rgb(26, 32, 44);
     line-height: 1.25;
     margin-block-start: 0.67em;
@@ -235,7 +236,7 @@ h1 {
 }
 
 .header__description--para {
-    font-size: 16px;
+    margin: 32px 0;
 }
 
 .header__email {
@@ -299,12 +300,12 @@ img {
 }
 
 .header__img--wrapper {
-    max-width: calc(60%);
-    
-    
+   
 }
 
 p {
+    font-size: 18px;
+    line-height: 1.5;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
